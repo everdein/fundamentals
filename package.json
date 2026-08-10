@@ -1,0 +1,27 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal JavaScript playground for data structures, algorithms, and problem-solving patterns.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "play": "node playground.js",
+    "play:watch": "node --watch playground.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "coverage": "node --test --experimental-test-coverage",
+    "new": "node scripts/new-exercise.js",
+    "scaffold": "node scripts/seed-curriculum.js",
+    "check": "node --check playground.js && node --check scripts/new-exercise.js && node --check scripts/seed-curriculum.js && node --test"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "practice"
+  ],
+  "license": "UNLICENSED"
+}
